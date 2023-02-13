@@ -1,8 +1,7 @@
-# Steps to Start the App
+# Setup
 
-## Install the Public Dependencies
-## Install the Server Dependencies
-## In the Server Directory there's a .env file. Change the value of mongodb inside the file. Set the value as your mongodb connection url.
-## Now start the server by yarn start
-## Now start the react by yarn start
-## And the chat application would be running successfully by now.
+## Install client dependencies inside /public
+## Install server dependencies inside /server
+## Change the value of mongodb inside the './server/.env' file. Set the value as your mongodb connection url.
+## `yarn start` for server and client
+## navigate to http://localhost:3000/
